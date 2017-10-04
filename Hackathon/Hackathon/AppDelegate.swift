@@ -12,10 +12,43 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        if let win = self.window {
+            win.backgroundColor = .white
+            
+            let subjectViewController = SubjectViewController()
+            win.rootViewController?.view.backgroundColor = UIColor.white
+            let nav = NavViewController(rootViewController: subjectViewController)
+            
+            let v = UIView()
+            v.backgroundColor = .white
+            v.translatesAutoresizingMaskIntoConstraints = false
+            
+            let statusBarSize = UIApplication.shared.statusBarFrame.size
+            nav.view.addSubview(v)
+            v.topAnchor.constraint(equalTo: nav.topLayoutGuide.topAnchor ).isActive = true
+            v.heightAnchor.constraint(equalToConstant: statusBarSize.height).isActive = true
+            v.leftAnchor.constraint(equalTo: nav.view.leftAnchor).isActive = true
+            v.rightAnchor.constraint(equalTo: nav.view.rightAnchor).isActive = true
+            
+            var navigationBarAppearace = UINavigationBar.appearance()
+            
+            navigationBarAppearace.barTintColor = UIColor.blue
+            
+            win.rootViewController = nav
+            win.makeKeyAndVisible()
+            
+        }
+        
+        
         return true
     }
 
