@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A3EAC1CC5E991AA4FE9D8A20 /* Pods_Hackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995006EF039040A202D91D2D /* Pods_Hackathon.framework */; };
+		BB699F201F852E9A0015FEDD /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB699F1F1F852E9A0015FEDD /* NavigationViewController.swift */; };
+		BBF31A901F8532D100EAF842 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF31A8E1F8532D100EAF842 /* CellView.swift */; };
+		BBF31A911F8532D100EAF842 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF31A8F1F8532D100EAF842 /* CellView.xib */; };
 		ED4C7E111F850B5D009E7403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C7E101F850B5D009E7403 /* AppDelegate.swift */; };
 		ED4C7E131F850B5D009E7403 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C7E121F850B5D009E7403 /* LoginViewController.swift */; };
 		ED4C7E161F850B5D009E7403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4C7E141F850B5D009E7403 /* Main.storyboard */; };
@@ -44,6 +47,9 @@
 /* Begin PBXFileReference section */
 		2324B8747095957D163AC544 /* Pods-Hackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon.debug.xcconfig"; sourceTree = "<group>"; };
 		995006EF039040A202D91D2D /* Pods_Hackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB699F1F1F852E9A0015FEDD /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationViewController.swift; path = ../../../../NavigationViewController.swift; sourceTree = "<group>"; };
+		BBF31A8E1F8532D100EAF842 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		BBF31A8F1F8532D100EAF842 /* CellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
 		D7BD14C0BA1E5E2D0BE5145E /* Pods-Hackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon.release.xcconfig"; sourceTree = "<group>"; };
 		ED4C7E0D1F850B5D009E7403 /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4C7E101F850B5D009E7403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +109,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BBF31A891F8530FD00EAF842 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BBF31A8E1F8532D100EAF842 /* CellView.swift */,
+				BBF31A8F1F8532D100EAF842 /* CellView.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
 		ED4C7E041F850B5D009E7403 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +141,7 @@
 			children = (
 				ED4C7E101F850B5D009E7403 /* AppDelegate.swift */,
 				ED4C7E671F8524ED009E7403 /* SessionUser.swift */,
+				BB699F1F1F852E9A0015FEDD /* NavigationViewController.swift */,
 				ED4C7E401F85202D009E7403 /* Section */,
 				ED4C7E2F1F851D82009E7403 /* Model */,
 				ED4C7E2C1F851CB2009E7403 /* Network */,
@@ -153,6 +169,7 @@
 		ED4C7E251F851C51009E7403 /* Subject */ = {
 			isa = PBXGroup;
 			children = (
+				BBF31A891F8530FD00EAF842 /* CollectionViewCell */,
 				ED4C7E231F851C4B009E7403 /* SubjectViewController.swift */,
 				ED4C7E381F851F44009E7403 /* SubjectView.xib */,
 			);
@@ -337,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF31A911F8532D100EAF842 /* CellView.xib in Resources */,
 				ED4C7E491F85209D009E7403 /* AnswerViewController.xib in Resources */,
 				ED4C7E1B1F850B5D009E7403 /* LaunchScreen.storyboard in Resources */,
 				ED4C7E531F852108009E7403 /* TitleExoViewController.xib in Resources */,
@@ -421,6 +439,7 @@
 				ED4C7E481F85209D009E7403 /* AnswerViewController.swift in Sources */,
 				ED4C7E571F852130009E7403 /* VideoListViewController.swift in Sources */,
 				ED4C7E521F852108009E7403 /* TitleExoViewController.swift in Sources */,
+				BB699F201F852E9A0015FEDD /* NavigationViewController.swift in Sources */,
 				ED4C7E621F852314009E7403 /* Answer.swift in Sources */,
 				ED4C7E3E1F852028009E7403 /* SectionViewController.swift in Sources */,
 				ED4C7E331F851DF8009E7403 /* Lesson.swift in Sources */,
@@ -432,6 +451,7 @@
 				ED4C7E111F850B5D009E7403 /* AppDelegate.swift in Sources */,
 				ED4C7E2E1F851CC6009E7403 /* APINetwork.swift in Sources */,
 				ED4C7E431F852071009E7403 /* QuestionViewController.swift in Sources */,
+				BBF31A901F8532D100EAF842 /* CellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
