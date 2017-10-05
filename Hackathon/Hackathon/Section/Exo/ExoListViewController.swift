@@ -26,16 +26,16 @@ class ExoListViewController: UISplitViewController {
         preferredDisplayMode = .allVisible
         view.backgroundColor = UIColor.white
         
-        let exoVC = ExoViewController(nibName: "ExoViewController", bundle: nil)
+        //let exoVC = ExoViewController(nibName: "ExoViewController", bundle: nil)
         
         let exoTableViewVC =  ExoTableViewController(nibName: "ExoTableViewController", bundle: nil)
         exoTableViewVC.lesson = lesson
-        exoTableViewVC.delegate = exoVC
+        //exoTableViewVC.delegate = exoVC
         
         let exoTableView = exoTableViewVC
-        let exoView = exoVC
+        //let exoView = exoVC
         
-        viewControllers = [exoTableView, exoView];
+        //viewControllers = [exoTableView, exoView];
         
         
     }

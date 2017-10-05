@@ -24,9 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if let win = self.window {
             win.backgroundColor = .white
             
-            let subjectViewController = SubjectViewController()
+            //let subjectViewController = SubjectViewController()
+            let classViewController = ClasseViewController()
             win.rootViewController?.view.backgroundColor = UIColor.white
-            let nav = NavViewController(rootViewController: subjectViewController)
+            let nav = NavViewController(rootViewController: classViewController)
             
             let v = UIView()
             v.backgroundColor = .white

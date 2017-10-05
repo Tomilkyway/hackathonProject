@@ -52,7 +52,7 @@
                 <outlet property="nbCourses" destination="q6q-hL-l7c" id="DXv-co-jjW"/>
                 <outlet property="titleCourse" destination="Rnl-dY-bv1" id="lzD-SW-7fQ"/>
             </connections>
-            <point key="canvasLocation" x="-169" y="392"/>
+            <point key="canvasLocation" x="-202" y="316"/>
         </collectionViewCell>
     </objects>
 </document>

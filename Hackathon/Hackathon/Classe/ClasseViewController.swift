@@ -11,23 +11,22 @@ import UIKit
 class ClasseViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var classeCollectionView: UICollectionView!
     let cellId: String = "Cell"
-    let matieres = ["Androïd", "iOS", "Electronique", "C++", "APIs du Cloud", "Réseaux", "Marketing Mobile", "Projet Annuel", "Langage C", "UML", "Planification SI", "Maths"]
-    let nbCourses = ["6", "11", "3", "9", "4", "2", "9", "5", "7", "3", "15", "8"]
+    let year = ["1i", "2i", "3A", "4A"]
+    let spec = ["", "", "MOC", "MOC"]
+    let promo = ["2014/2015", "2015/2016", "2016/2017", "2017/2018"]
     
     override func viewDidLoad() {
         
         //DEL
         
-        
-        collectionView.delegate = self
-        collectionView.dataSource = self
+        classeCollectionView.delegate = self
+        classeCollectionView.dataSource = self
         
         super.viewDidLoad()
         
-        
-        collectionView.register(UINib.init(nibName: "CellView", bundle: nil), forCellWithReuseIdentifier: cellId)
+        classeCollectionView.register(UINib.init(nibName: "ClasseCellView", bundle: nil), forCellWithReuseIdentifier: cellId)
         // Do any additional setup after loading the view.
     }
     
@@ -41,14 +40,14 @@ class ClasseViewController: UIViewController, UICollectionViewDelegate, UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return matieres.count
+        return year.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! CellView
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! ClasseCellView
         
-        cell.titleCourse.text = matieres[indexPath.item]
-        cell.nbCourses.text = "\(nbCourses[indexPath.item]) cours disponible(s)"
+        cell.classYearAndSpec.text = "\(year[indexPath.item]) \(spec[indexPath.item])"
+        cell.classPromo.text = "Promotion \(promo[indexPath.item])"
         
         return cell
     }
@@ -63,13 +62,6 @@ class ClasseViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 3
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let v = ExoListViewController()
-        let le = Lesson()
-        v.lesson = le
-        self.present(v, animated: true, completion: nil)
     }
     
 }

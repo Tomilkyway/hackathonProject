@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ClasseViewController" customModule="Hackathon" customModuleProvider="target">
             <connections>
-                <outlet property="collectionView" destination="r13-Ml-K2I" id="0Fk-iI-bp3"/>
+                <outlet property="classeCollectionView" destination="r13-Ml-K2I" id="O4d-m2-UsV"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -22,7 +22,7 @@
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="r13-Ml-K2I">
                     <rect key="frame" x="16" y="123" width="343" height="492"/>
-                    <color key="backgroundColor" white="1" alpha="0.97891695209999996" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="80f-9v-WEu">
                         <size key="itemSize" width="50" height="50"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
