@@ -18,13 +18,13 @@
 		BB52C8131F863F3500CC61D7 /* ExoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB52C8111F863F3500CC61D7 /* ExoCollectionViewCell.xib */; };
 		BB52C8171F864BF000CC61D7 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB52C8161F864BF000CC61D7 /* NavigationViewController.swift */; };
 		BB52C8191F865BCB00CC61D7 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB52C8181F865BCB00CC61D7 /* BaseCell.swift */; };
+		BBF1F7061F86842300926A85 /* ClasseCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF1F7041F86842300926A85 /* ClasseCellView.swift */; };
+		BBF1F7071F86842300926A85 /* ClasseCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF1F7051F86842300926A85 /* ClasseCellView.xib */; };
 		BBF31A901F8532D100EAF842 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF31A8E1F8532D100EAF842 /* CellView.swift */; };
 		BBF31A911F8532D100EAF842 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF31A8F1F8532D100EAF842 /* CellView.xib */; };
 		BBFEE8D81F8669C400FBD945 /* ComposeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFEE8D71F8669C400FBD945 /* ComposeBar.swift */; };
 		BBFEE8DC1F8675BC00FBD945 /* ClasseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFEE8DA1F8675BC00FBD945 /* ClasseViewController.swift */; };
 		BBFEE8DD1F8675BC00FBD945 /* ClasseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBFEE8DB1F8675BC00FBD945 /* ClasseViewController.xib */; };
-		BBFEE8E11F86763F00FBD945 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFEE8DF1F86763F00FBD945 /* CollectionViewCell.swift */; };
-		BBFEE8E21F86763F00FBD945 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBFEE8E01F86763F00FBD945 /* CollectionViewCell.xib */; };
 		BBFEE8E41F86772200FBD945 /* Classe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFEE8E31F86772200FBD945 /* Classe.swift */; };
 		ED4C7E111F850B5D009E7403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C7E101F850B5D009E7403 /* AppDelegate.swift */; };
 		ED4C7E131F850B5D009E7403 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C7E121F850B5D009E7403 /* LoginViewController.swift */; };
@@ -70,13 +70,13 @@
 		BB52C8111F863F3500CC61D7 /* ExoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExoCollectionViewCell.xib; sourceTree = "<group>"; };
 		BB52C8161F864BF000CC61D7 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		BB52C8181F865BCB00CC61D7 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		BBF1F7041F86842300926A85 /* ClasseCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasseCellView.swift; sourceTree = "<group>"; };
+		BBF1F7051F86842300926A85 /* ClasseCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClasseCellView.xib; sourceTree = "<group>"; };
 		BBF31A8E1F8532D100EAF842 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		BBF31A8F1F8532D100EAF842 /* CellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
 		BBFEE8D71F8669C400FBD945 /* ComposeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeBar.swift; sourceTree = "<group>"; };
 		BBFEE8DA1F8675BC00FBD945 /* ClasseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasseViewController.swift; sourceTree = "<group>"; };
 		BBFEE8DB1F8675BC00FBD945 /* ClasseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClasseViewController.xib; sourceTree = "<group>"; };
-		BBFEE8DF1F86763F00FBD945 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		BBFEE8E01F86763F00FBD945 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		BBFEE8E31F86772200FBD945 /* Classe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classe.swift; sourceTree = "<group>"; };
 		D7BD14C0BA1E5E2D0BE5145E /* Pods-Hackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon.release.xcconfig"; sourceTree = "<group>"; };
 		ED4C7E0D1F850B5D009E7403 /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,6 +158,15 @@
 			path = Exo;
 			sourceTree = "<group>";
 		};
+		BBF1F7081F86842E00926A85 /* ClasseCellView */ = {
+			isa = PBXGroup;
+			children = (
+				BBF1F7041F86842300926A85 /* ClasseCellView.swift */,
+				BBF1F7051F86842300926A85 /* ClasseCellView.xib */,
+			);
+			path = ClasseCellView;
+			sourceTree = "<group>";
+		};
 		BBF31A891F8530FD00EAF842 /* CollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,20 +179,11 @@
 		BBFEE8D91F86757500FBD945 /* Classe */ = {
 			isa = PBXGroup;
 			children = (
-				BBFEE8DE1F8675F000FBD945 /* CollectionViewCell */,
+				BBF1F7081F86842E00926A85 /* ClasseCellView */,
 				BBFEE8DA1F8675BC00FBD945 /* ClasseViewController.swift */,
 				BBFEE8DB1F8675BC00FBD945 /* ClasseViewController.xib */,
 			);
 			path = Classe;
-			sourceTree = "<group>";
-		};
-		BBFEE8DE1F8675F000FBD945 /* CollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				BBFEE8DF1F86763F00FBD945 /* CollectionViewCell.swift */,
-				BBFEE8E01F86763F00FBD945 /* CollectionViewCell.xib */,
-			);
-			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 		ED4C7E041F850B5D009E7403 = {
@@ -425,8 +425,8 @@
 				ED4C7E3B1F851F58009E7403 /* View.xib in Resources */,
 				BB52C80B1F8637C100CC61D7 /* ExoViewController.xib in Resources */,
 				ED4C7E3F1F852028009E7403 /* SectionViewController.xib in Resources */,
-				BBFEE8E21F86763F00FBD945 /* CollectionViewCell.xib in Resources */,
 				ED4C7E5D1F852149009E7403 /* TitleVideoViewController.xib in Resources */,
+				BBF1F7071F86842300926A85 /* ClasseCellView.xib in Resources */,
 				ED4C7E4E1F8520E3009E7403 /* ExoListViewController.xib in Resources */,
 				ED4C7E181F850B5D009E7403 /* Assets.xcassets in Resources */,
 				ED4C7E581F852130009E7403 /* VideoListViewController.xib in Resources */,
@@ -521,7 +521,6 @@
 				ED4C7E311F851DA7009E7403 /* Subject.swift in Sources */,
 				BB52C80E1F863E4100CC61D7 /* ExoTableViewCell.swift in Sources */,
 				ED4C7E481F85209D009E7403 /* AnswerViewController.swift in Sources */,
-				BBFEE8E11F86763F00FBD945 /* CollectionViewCell.swift in Sources */,
 				BBFEE8E41F86772200FBD945 /* Classe.swift in Sources */,
 				ED4C7E571F852130009E7403 /* VideoListViewController.swift in Sources */,
 				BB52C80A1F8637C100CC61D7 /* ExoViewController.swift in Sources */,
@@ -538,6 +537,7 @@
 				BB52C8061F86376800CC61D7 /* ExoTableViewController.swift in Sources */,
 				ED4C7E2E1F851CC6009E7403 /* APINetwork.swift in Sources */,
 				ED4C7E431F852071009E7403 /* QuestionViewController.swift in Sources */,
+				BBF1F7061F86842300926A85 /* ClasseCellView.swift in Sources */,
 				BB52C8191F865BCB00CC61D7 /* BaseCell.swift in Sources */,
 				BBF31A901F8532D100EAF842 /* CellView.swift in Sources */,
 			);

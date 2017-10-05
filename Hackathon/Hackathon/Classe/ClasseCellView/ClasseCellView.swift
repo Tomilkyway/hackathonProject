@@ -1,5 +1,5 @@
 //
-//  CollectionViewCell.swift
+//  ClasseCellView.swift
 //  Hackathon
 //
 //  Created by Thomas Pain-Surget on 05/10/2017.
@@ -8,8 +8,11 @@
 
 import UIKit
 
-class CollectionViewCell: UICollectionViewCell {
+class ClasseCellView: UICollectionViewCell {
 
+    @IBOutlet weak var classYearAndSpec: UILabel!
+    @IBOutlet weak var classPromo: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
