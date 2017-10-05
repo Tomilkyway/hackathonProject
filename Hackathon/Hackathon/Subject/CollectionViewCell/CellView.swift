@@ -11,6 +11,7 @@ import UIKit
 class CellView: UICollectionViewCell {
     
     @IBOutlet weak var titleCourse: UILabel!
+    @IBOutlet weak var nbCourses: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

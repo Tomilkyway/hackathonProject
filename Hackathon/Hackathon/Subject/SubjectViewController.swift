@@ -13,13 +13,17 @@ class SubjectViewController: UIViewController, UICollectionViewDelegate, UIColle
     
     @IBOutlet weak var collectionView: UICollectionView!
     let cellId: String = "Cell"
-    let matieres = ["Androïd", "iOS", "Electronique", "C++", "APIs du Cloud", "Réseaux", "Marketing Mobile", "Projet Annuel", "Jean", "Bon", "Mi", "Chel"]
+    let matieres = ["Androïd", "iOS", "Electronique", "C++", "APIs du Cloud", "Réseaux", "Marketing Mobile", "Projet Annuel", "Langage C", "UML", "Planification SI", "Maths"]
+    let nbCourses = ["6", "11", "3", "9", "4", "2", "9", "5", "7", "3", "15", "8"]
 
     override func viewDidLoad() {
         
+        //DEL
+       
+        
         collectionView.delegate = self
         collectionView.dataSource = self
-        
+                
         super.viewDidLoad()
         
         
@@ -44,6 +48,7 @@ class SubjectViewController: UIViewController, UICollectionViewDelegate, UIColle
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! CellView
         
         cell.titleCourse.text = matieres[indexPath.item]
+        cell.nbCourses.text = "\(nbCourses[indexPath.item]) cours disponible(s)"
         
         return cell
     }
@@ -59,14 +64,12 @@ class SubjectViewController: UIViewController, UICollectionViewDelegate, UIColle
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 3
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let v = ExoListViewController()
+        let le = Lesson()
+        v.lesson = le
+        self.present(v, animated: true, completion: nil)
     }
-    */
 
 }

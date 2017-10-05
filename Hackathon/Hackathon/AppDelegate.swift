@@ -39,9 +39,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             v.leftAnchor.constraint(equalTo: nav.view.leftAnchor).isActive = true
             v.rightAnchor.constraint(equalTo: nav.view.rightAnchor).isActive = true
             
-            var navigationBarAppearace = UINavigationBar.appearance()
-            
-            navigationBarAppearace.barTintColor = UIColor.blue
+//            let navigationBarAppearace = UINavigationBar.appearance()
+//            
+//            navigationBarAppearace.barTintColor = UIColor.blue
             
             win.rootViewController = nav
             win.makeKeyAndVisible()
