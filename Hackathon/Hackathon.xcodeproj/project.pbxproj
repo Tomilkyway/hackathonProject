@@ -8,9 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A3EAC1CC5E991AA4FE9D8A20 /* Pods_Hackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995006EF039040A202D91D2D /* Pods_Hackathon.framework */; };
-		BB699F201F852E9A0015FEDD /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB699F1F1F852E9A0015FEDD /* NavigationViewController.swift */; };
+		BB52C8061F86376800CC61D7 /* ExoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB52C8041F86376800CC61D7 /* ExoTableViewController.swift */; };
+		BB52C8071F86376800CC61D7 /* ExoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB52C8051F86376800CC61D7 /* ExoTableViewController.xib */; };
+		BB52C80A1F8637C100CC61D7 /* ExoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB52C8081F8637C100CC61D7 /* ExoViewController.swift */; };
+		BB52C80B1F8637C100CC61D7 /* ExoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB52C8091F8637C100CC61D7 /* ExoViewController.xib */; };
+		BB52C80E1F863E4100CC61D7 /* ExoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB52C80C1F863E4100CC61D7 /* ExoTableViewCell.swift */; };
+		BB52C80F1F863E4100CC61D7 /* ExoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB52C80D1F863E4100CC61D7 /* ExoTableViewCell.xib */; };
+		BB52C8121F863F3500CC61D7 /* ExoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB52C8101F863F3500CC61D7 /* ExoCollectionViewCell.swift */; };
+		BB52C8131F863F3500CC61D7 /* ExoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB52C8111F863F3500CC61D7 /* ExoCollectionViewCell.xib */; };
+		BB52C8171F864BF000CC61D7 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB52C8161F864BF000CC61D7 /* NavigationViewController.swift */; };
+		BB52C8191F865BCB00CC61D7 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB52C8181F865BCB00CC61D7 /* BaseCell.swift */; };
 		BBF31A901F8532D100EAF842 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF31A8E1F8532D100EAF842 /* CellView.swift */; };
 		BBF31A911F8532D100EAF842 /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF31A8F1F8532D100EAF842 /* CellView.xib */; };
+		BBFEE8D81F8669C400FBD945 /* ComposeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFEE8D71F8669C400FBD945 /* ComposeBar.swift */; };
+		BBFEE8DC1F8675BC00FBD945 /* ClasseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFEE8DA1F8675BC00FBD945 /* ClasseViewController.swift */; };
+		BBFEE8DD1F8675BC00FBD945 /* ClasseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBFEE8DB1F8675BC00FBD945 /* ClasseViewController.xib */; };
+		BBFEE8E11F86763F00FBD945 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFEE8DF1F86763F00FBD945 /* CollectionViewCell.swift */; };
+		BBFEE8E21F86763F00FBD945 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBFEE8E01F86763F00FBD945 /* CollectionViewCell.xib */; };
+		BBFEE8E41F86772200FBD945 /* Classe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFEE8E31F86772200FBD945 /* Classe.swift */; };
 		ED4C7E111F850B5D009E7403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C7E101F850B5D009E7403 /* AppDelegate.swift */; };
 		ED4C7E131F850B5D009E7403 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C7E121F850B5D009E7403 /* LoginViewController.swift */; };
 		ED4C7E161F850B5D009E7403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4C7E141F850B5D009E7403 /* Main.storyboard */; };
@@ -31,8 +46,6 @@
 		ED4C7E491F85209D009E7403 /* AnswerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4C7E471F85209D009E7403 /* AnswerViewController.xib */; };
 		ED4C7E4D1F8520E3009E7403 /* ExoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C7E4B1F8520E3009E7403 /* ExoListViewController.swift */; };
 		ED4C7E4E1F8520E3009E7403 /* ExoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4C7E4C1F8520E3009E7403 /* ExoListViewController.xib */; };
-		ED4C7E521F852108009E7403 /* TitleExoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C7E501F852108009E7403 /* TitleExoViewController.swift */; };
-		ED4C7E531F852108009E7403 /* TitleExoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4C7E511F852108009E7403 /* TitleExoViewController.xib */; };
 		ED4C7E571F852130009E7403 /* VideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C7E551F852130009E7403 /* VideoListViewController.swift */; };
 		ED4C7E581F852130009E7403 /* VideoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4C7E561F852130009E7403 /* VideoListViewController.xib */; };
 		ED4C7E5C1F852149009E7403 /* TitleVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C7E5A1F852149009E7403 /* TitleVideoViewController.swift */; };
@@ -47,9 +60,24 @@
 /* Begin PBXFileReference section */
 		2324B8747095957D163AC544 /* Pods-Hackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon.debug.xcconfig"; sourceTree = "<group>"; };
 		995006EF039040A202D91D2D /* Pods_Hackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB699F1F1F852E9A0015FEDD /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationViewController.swift; path = ../../../../NavigationViewController.swift; sourceTree = "<group>"; };
+		BB52C8041F86376800CC61D7 /* ExoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExoTableViewController.swift; sourceTree = "<group>"; };
+		BB52C8051F86376800CC61D7 /* ExoTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExoTableViewController.xib; sourceTree = "<group>"; };
+		BB52C8081F8637C100CC61D7 /* ExoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExoViewController.swift; sourceTree = "<group>"; };
+		BB52C8091F8637C100CC61D7 /* ExoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExoViewController.xib; sourceTree = "<group>"; };
+		BB52C80C1F863E4100CC61D7 /* ExoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExoTableViewCell.swift; sourceTree = "<group>"; };
+		BB52C80D1F863E4100CC61D7 /* ExoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExoTableViewCell.xib; sourceTree = "<group>"; };
+		BB52C8101F863F3500CC61D7 /* ExoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExoCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB52C8111F863F3500CC61D7 /* ExoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExoCollectionViewCell.xib; sourceTree = "<group>"; };
+		BB52C8161F864BF000CC61D7 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		BB52C8181F865BCB00CC61D7 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		BBF31A8E1F8532D100EAF842 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		BBF31A8F1F8532D100EAF842 /* CellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
+		BBFEE8D71F8669C400FBD945 /* ComposeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeBar.swift; sourceTree = "<group>"; };
+		BBFEE8DA1F8675BC00FBD945 /* ClasseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasseViewController.swift; sourceTree = "<group>"; };
+		BBFEE8DB1F8675BC00FBD945 /* ClasseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClasseViewController.xib; sourceTree = "<group>"; };
+		BBFEE8DF1F86763F00FBD945 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		BBFEE8E01F86763F00FBD945 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		BBFEE8E31F86772200FBD945 /* Classe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classe.swift; sourceTree = "<group>"; };
 		D7BD14C0BA1E5E2D0BE5145E /* Pods-Hackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon.release.xcconfig"; sourceTree = "<group>"; };
 		ED4C7E0D1F850B5D009E7403 /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4C7E101F850B5D009E7403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,8 +103,6 @@
 		ED4C7E471F85209D009E7403 /* AnswerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnswerViewController.xib; sourceTree = "<group>"; };
 		ED4C7E4B1F8520E3009E7403 /* ExoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExoListViewController.swift; sourceTree = "<group>"; };
 		ED4C7E4C1F8520E3009E7403 /* ExoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExoListViewController.xib; sourceTree = "<group>"; };
-		ED4C7E501F852108009E7403 /* TitleExoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleExoViewController.swift; sourceTree = "<group>"; };
-		ED4C7E511F852108009E7403 /* TitleExoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleExoViewController.xib; sourceTree = "<group>"; };
 		ED4C7E551F852130009E7403 /* VideoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListViewController.swift; sourceTree = "<group>"; };
 		ED4C7E561F852130009E7403 /* VideoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoListViewController.xib; sourceTree = "<group>"; };
 		ED4C7E5A1F852149009E7403 /* TitleVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleVideoViewController.swift; sourceTree = "<group>"; };
@@ -109,11 +135,53 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BB52C8021F86371D00CC61D7 /* ExoTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BB52C8041F86376800CC61D7 /* ExoTableViewController.swift */,
+				BB52C8051F86376800CC61D7 /* ExoTableViewController.xib */,
+				BB52C80C1F863E4100CC61D7 /* ExoTableViewCell.swift */,
+				BB52C80D1F863E4100CC61D7 /* ExoTableViewCell.xib */,
+			);
+			path = ExoTableView;
+			sourceTree = "<group>";
+		};
+		BB52C8031F86373600CC61D7 /* Exo */ = {
+			isa = PBXGroup;
+			children = (
+				BB52C8081F8637C100CC61D7 /* ExoViewController.swift */,
+				BB52C8091F8637C100CC61D7 /* ExoViewController.xib */,
+				BB52C8101F863F3500CC61D7 /* ExoCollectionViewCell.swift */,
+				BB52C8111F863F3500CC61D7 /* ExoCollectionViewCell.xib */,
+				BBFEE8D71F8669C400FBD945 /* ComposeBar.swift */,
+			);
+			path = Exo;
+			sourceTree = "<group>";
+		};
 		BBF31A891F8530FD00EAF842 /* CollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
 				BBF31A8E1F8532D100EAF842 /* CellView.swift */,
 				BBF31A8F1F8532D100EAF842 /* CellView.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		BBFEE8D91F86757500FBD945 /* Classe */ = {
+			isa = PBXGroup;
+			children = (
+				BBFEE8DE1F8675F000FBD945 /* CollectionViewCell */,
+				BBFEE8DA1F8675BC00FBD945 /* ClasseViewController.swift */,
+				BBFEE8DB1F8675BC00FBD945 /* ClasseViewController.xib */,
+			);
+			path = Classe;
+			sourceTree = "<group>";
+		};
+		BBFEE8DE1F8675F000FBD945 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BBFEE8DF1F86763F00FBD945 /* CollectionViewCell.swift */,
+				BBFEE8E01F86763F00FBD945 /* CollectionViewCell.xib */,
 			);
 			path = CollectionViewCell;
 			sourceTree = "<group>";
@@ -141,7 +209,9 @@
 			children = (
 				ED4C7E101F850B5D009E7403 /* AppDelegate.swift */,
 				ED4C7E671F8524ED009E7403 /* SessionUser.swift */,
-				BB699F1F1F852E9A0015FEDD /* NavigationViewController.swift */,
+				BB52C8161F864BF000CC61D7 /* NavigationViewController.swift */,
+				BB52C8181F865BCB00CC61D7 /* BaseCell.swift */,
+				BBFEE8D91F86757500FBD945 /* Classe */,
 				ED4C7E401F85202D009E7403 /* Section */,
 				ED4C7E2F1F851D82009E7403 /* Model */,
 				ED4C7E2C1F851CB2009E7403 /* Network */,
@@ -210,6 +280,7 @@
 				ED4C7E651F852404009E7403 /* Exercice.swift */,
 				ED4C7E611F852314009E7403 /* Answer.swift */,
 				ED4C7E631F85237B009E7403 /* Video.swift */,
+				BBFEE8E31F86772200FBD945 /* Classe.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -251,18 +322,10 @@
 			children = (
 				ED4C7E4B1F8520E3009E7403 /* ExoListViewController.swift */,
 				ED4C7E4C1F8520E3009E7403 /* ExoListViewController.xib */,
-				ED4C7E541F852114009E7403 /* TitleExo */,
+				BB52C8021F86371D00CC61D7 /* ExoTableView */,
+				BB52C8031F86373600CC61D7 /* Exo */,
 			);
 			path = Exo;
-			sourceTree = "<group>";
-		};
-		ED4C7E541F852114009E7403 /* TitleExo */ = {
-			isa = PBXGroup;
-			children = (
-				ED4C7E501F852108009E7403 /* TitleExoViewController.swift */,
-				ED4C7E511F852108009E7403 /* TitleExoViewController.xib */,
-			);
-			path = TitleExo;
 			sourceTree = "<group>";
 		};
 		ED4C7E591F852135009E7403 /* Video */ = {
@@ -355,18 +418,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBF31A911F8532D100EAF842 /* CellView.xib in Resources */,
+				BB52C8071F86376800CC61D7 /* ExoTableViewController.xib in Resources */,
+				BBFEE8DD1F8675BC00FBD945 /* ClasseViewController.xib in Resources */,
 				ED4C7E491F85209D009E7403 /* AnswerViewController.xib in Resources */,
 				ED4C7E1B1F850B5D009E7403 /* LaunchScreen.storyboard in Resources */,
-				ED4C7E531F852108009E7403 /* TitleExoViewController.xib in Resources */,
 				ED4C7E3B1F851F58009E7403 /* View.xib in Resources */,
+				BB52C80B1F8637C100CC61D7 /* ExoViewController.xib in Resources */,
 				ED4C7E3F1F852028009E7403 /* SectionViewController.xib in Resources */,
+				BBFEE8E21F86763F00FBD945 /* CollectionViewCell.xib in Resources */,
 				ED4C7E5D1F852149009E7403 /* TitleVideoViewController.xib in Resources */,
 				ED4C7E4E1F8520E3009E7403 /* ExoListViewController.xib in Resources */,
 				ED4C7E181F850B5D009E7403 /* Assets.xcassets in Resources */,
 				ED4C7E581F852130009E7403 /* VideoListViewController.xib in Resources */,
 				ED4C7E441F852071009E7403 /* QuestionViewController.xib in Resources */,
 				ED4C7E161F850B5D009E7403 /* Main.storyboard in Resources */,
+				BB52C8131F863F3500CC61D7 /* ExoCollectionViewCell.xib in Resources */,
 				ED4C7E391F851F44009E7403 /* SubjectView.xib in Resources */,
+				BB52C80F1F863E4100CC61D7 /* ExoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,10 +464,22 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Hackathon/Pods-Hackathon-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -431,15 +511,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBFEE8D81F8669C400FBD945 /* ComposeBar.swift in Sources */,
+				BB52C8171F864BF000CC61D7 /* NavigationViewController.swift in Sources */,
+				BBFEE8DC1F8675BC00FBD945 /* ClasseViewController.swift in Sources */,
 				ED4C7E601F852245009E7403 /* Question.swift in Sources */,
 				ED4C7E2B1F851C93009E7403 /* Utility.swift in Sources */,
 				ED4C7E4D1F8520E3009E7403 /* ExoListViewController.swift in Sources */,
 				ED4C7E661F852404009E7403 /* Exercice.swift in Sources */,
 				ED4C7E311F851DA7009E7403 /* Subject.swift in Sources */,
+				BB52C80E1F863E4100CC61D7 /* ExoTableViewCell.swift in Sources */,
 				ED4C7E481F85209D009E7403 /* AnswerViewController.swift in Sources */,
+				BBFEE8E11F86763F00FBD945 /* CollectionViewCell.swift in Sources */,
+				BBFEE8E41F86772200FBD945 /* Classe.swift in Sources */,
 				ED4C7E571F852130009E7403 /* VideoListViewController.swift in Sources */,
-				ED4C7E521F852108009E7403 /* TitleExoViewController.swift in Sources */,
-				BB699F201F852E9A0015FEDD /* NavigationViewController.swift in Sources */,
+				BB52C80A1F8637C100CC61D7 /* ExoViewController.swift in Sources */,
+				BB52C8121F863F3500CC61D7 /* ExoCollectionViewCell.swift in Sources */,
 				ED4C7E621F852314009E7403 /* Answer.swift in Sources */,
 				ED4C7E3E1F852028009E7403 /* SectionViewController.swift in Sources */,
 				ED4C7E331F851DF8009E7403 /* Lesson.swift in Sources */,
@@ -449,8 +535,10 @@
 				ED4C7E5C1F852149009E7403 /* TitleVideoViewController.swift in Sources */,
 				ED4C7E241F851C4B009E7403 /* SubjectViewController.swift in Sources */,
 				ED4C7E111F850B5D009E7403 /* AppDelegate.swift in Sources */,
+				BB52C8061F86376800CC61D7 /* ExoTableViewController.swift in Sources */,
 				ED4C7E2E1F851CC6009E7403 /* APINetwork.swift in Sources */,
 				ED4C7E431F852071009E7403 /* QuestionViewController.swift in Sources */,
+				BB52C8191F865BCB00CC61D7 /* BaseCell.swift in Sources */,
 				BBF31A901F8532D100EAF842 /* CellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

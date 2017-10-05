@@ -18,27 +18,41 @@
                 <rect key="frame" x="0.0" y="0.0" width="400" height="250"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HELLO" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rnl-dY-bv1">
-                        <rect key="frame" x="0.0" y="78" width="400" height="94"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TITLE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rnl-dY-bv1">
+                        <rect key="frame" x="0.0" y="50" width="400" height="94"/>
                         <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nb courses" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6q-hL-l7c">
+                        <rect key="frame" x="0.0" y="142" width="400" height="46"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="46" id="NCm-4a-5NZ"/>
+                            <constraint firstAttribute="width" constant="400" id="lpW-eV-Wrc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
             </view>
-            <color key="backgroundColor" red="0.27798566553327775" green="0.81544768810272217" blue="1" alpha="0.44004173801369861" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.33761878269918499" green="0.66547035125735032" blue="1" alpha="0.44004173801369861" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="Rnl-dY-bv1" secondAttribute="bottom" constant="78" id="IJe-dH-g2F"/>
+                <constraint firstAttribute="bottom" secondItem="Rnl-dY-bv1" secondAttribute="bottom" constant="106" id="IJe-dH-g2F"/>
+                <constraint firstItem="q6q-hL-l7c" firstAttribute="top" secondItem="Rnl-dY-bv1" secondAttribute="bottom" constant="-2" id="ae9-ek-dcQ"/>
                 <constraint firstItem="Rnl-dY-bv1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bUk-7d-wFg"/>
-                <constraint firstItem="Rnl-dY-bv1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="78" id="ml0-rf-16a"/>
+                <constraint firstAttribute="trailing" secondItem="q6q-hL-l7c" secondAttribute="trailing" id="ddN-Hu-JG8"/>
+                <constraint firstItem="Rnl-dY-bv1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="50" id="ml0-rf-16a"/>
+                <constraint firstItem="q6q-hL-l7c" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="n2R-m9-7Pv"/>
                 <constraint firstAttribute="trailing" secondItem="Rnl-dY-bv1" secondAttribute="trailing" id="sY1-o3-D65"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="239" height="239"/>
             <connections>
+                <outlet property="nbCourses" destination="q6q-hL-l7c" id="DXv-co-jjW"/>
                 <outlet property="titleCourse" destination="Rnl-dY-bv1" id="lzD-SW-7fQ"/>
             </connections>
-            <point key="canvasLocation" x="-17" y="176"/>
+            <point key="canvasLocation" x="-169" y="392"/>
         </collectionViewCell>
     </objects>
 </document>

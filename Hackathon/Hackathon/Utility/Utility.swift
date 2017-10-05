@@ -9,8 +9,10 @@
 import UIKit
 
 class Utility: NSObject {
+    
+    static let shared = Utility()
 
-    func getStringSize(message: String, width: Int , fontSize: Int) -> CGFloat{
+    func getStringSize(message: String, width: Int , fontSize: UIFont) -> CGFloat{
         
         let size = CGSize(width: width - 20, height: 1000)
         let stringOption = NSStringDrawingOptions.usesFontLeading.union(.usesLineFragmentOrigin)

@@ -14,4 +14,5 @@ class SessionUser: NSObject {
     
     var id_user: String?
     var token: String?
+    
 }
